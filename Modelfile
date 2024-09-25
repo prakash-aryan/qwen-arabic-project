@@ -1,0 +1,4 @@
+FROM ./models/qwen_arabic_merged_full_q4_k_m.gguf
+PARAMETER stop "Human:"
+PARAMETER stop "Assistant:"
+SYSTEM You are a helpful AI assistant fine-tuned for Arabic language tasks.
